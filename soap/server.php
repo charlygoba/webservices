@@ -6,15 +6,15 @@ class server
 
     }
 
-    public function getLibro ($id)
+    public function getLibro ($id_array)
     {
         return 'sam';
     }
 }
 
-$params = array('uri' => '9a/webservices/soap/server.php');
+$params = array('uri' => 'http://localhost/9a/webservices/soap/server.php');
 $server = new SoapServer(NULL, $params);
 $server->setClass('server');
-$server->hanle();
+$server->handle();
 
 ?>
