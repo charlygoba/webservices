@@ -12,7 +12,7 @@ class server
     }
 }
 
-$params = array('uri' => 'codev/soap/server.php');
+$params = array('uri' => '9a/webservices/soap/server.php');
 $server = new SoapServer(NULL, $params);
 $server->setClass('server');
 $server->hanle();
