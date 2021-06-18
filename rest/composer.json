@@ -1,5 +1,6 @@
 {
     "require": {
-        "slim/slim": "2.*"
+        "slim/slim": "2.*",
+        "econea/nusoap": "^0.9.11"
     }
 }
