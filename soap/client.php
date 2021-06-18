@@ -18,7 +18,7 @@ class class_implement
     
 }
 
-$client = new client;
+
 
 
 ?>
